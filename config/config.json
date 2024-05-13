@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-news-ticker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customNewsTicker/CustomNewsTickerWebPart.js",
+          "manifest": "./src/webparts/customNewsTicker/CustomNewsTickerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomNewsTickerWebPartStrings": "lib/webparts/customNewsTicker/loc/{locale}.js"
+  }
+}

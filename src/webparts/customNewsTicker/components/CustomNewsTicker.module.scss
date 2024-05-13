@@ -1,0 +1,51 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+// .customNewsTicker {
+//   overflow: hidden;
+//   padding: 1em;
+//   color: "[theme:bodyText, default: #323130]";
+//   color: var(--bodyText);
+//   &.teams {
+//     font-family: $ms-font-family-fallbacks;
+//   }
+// }
+
+// /* CustomNewsTicker.module.scss */
+
+// .latestActivity {
+//   border: 1px solid #ccc;
+//   padding: 20px;
+//   margin-bottom: 20px;
+// }
+
+// .latestActivity h2 {
+//   margin-top: 0;
+// }
+
+// .latestActivity p {
+//   margin: 0;
+// }
+
+// .latestActivity strong {
+//   font-weight: bold;
+// }
+
+
+// .links {
+//   a {
+//     text-decoration: none;
+//     color: "[theme:link, default:#03787c]";
+//     color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+//     &:hover {
+//       text-decoration: underline;
+//       color: "[theme:linkHovered, default: #014446]";
+//       color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+//     }
+//   }
+// }
+.recentActivities{
+  color:black;
+}
+
+/* CustomNewsTicker.module.scss */
